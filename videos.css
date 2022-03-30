@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(img/c2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 80px;
+    float: left;
+    height: 75px;
+}
+
+.logo{
+    color:  #ffcc00;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+.logo span{
+
+
+font-family: 'Times New Roman';
+ color: Transparent;
+-webkit-text-stroke: 1px  #FFFF00;
+background: url(img/b8.png);
+-webkit-background-clip: text;
+background-position: 0 0;
+animation: back 20s linear infinite;
+}
+@keyframes back{
+100%{
+background-position:50px 0;
+}
+}
+}
+.logo span1{
+color:  #FFD700;
+}
+.logo span2{
+color:   #FFFF00;
+}
+
+.menu{
+    width: 600px;
+    float: left;
+    height: 85px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 90px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+   font-family: 'Times New Roman';
+    font-weight: bold;
+    transition: 0.7s ease-in-out;
+}
+
+ul li a:hover{
+    color:   #ffff00; *//shading word
+
+}
+section
+{
+position: relative;
+width: 100%;
+height: 100vh;
+}
+
+section video
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+section .navigation
+{
+position: absolute;
+bottom: 40px;
+left: 50%;
+transform: translateX(-50%);
+z-index: 100;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+section .navigation li
+{
+list-style: none;
+cursor: pointer;
+margin: 0 10px;
+border-radius: 4px;
+background: #fff;
+padding: 3px 3px 0;
+opacity: 0.7;
+transition: 0.5s;
+}
+section .navigation li:hover
+{
+opacity: 1;
+}
+
+section .navigation li img
+{
+width: 200px;
+transition: 0.5s;
+}
+section .navigation li img:hover
+{
+width: 200px;
